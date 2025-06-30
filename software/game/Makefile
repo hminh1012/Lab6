@@ -142,7 +142,7 @@ ACDS_VERSION := 13.0sp1
 ELF := game.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS := count_binary.c
+C_SRCS := game.c
 CXX_SRCS :=
 ASM_SRCS :=
 

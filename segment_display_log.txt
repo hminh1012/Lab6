@@ -1,0 +1,109 @@
+Altera SOPC Builder Version 12.10 Build 177
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.11.27 11:01:48 (*) mk_custom_sdk starting
+
+# 2012.11.27 11:01:48 (*) Reading project C:/ECT363/Lab6/segment_display.ptf.
+
+# 2012.11.27 11:01:48 (*) Finding all CPUs
+# 2012.11.27 11:01:48 (*) Finding all available components
+# 2012.11.27 11:01:48 (*) Reading C:/ECT363/Lab6/.sopc_builder/install.ptf
+
+# 2012.11.27 11:01:48 (*) Found 63 components
+
+# 2012.11.27 11:01:48 (*) Finding all peripherals
+
+# 2012.11.27 11:01:48 (*) Finding software components
+
+# 2012.11.27 11:01:49 (*) (Legacy SDK Generation Skipped)
+# 2012.11.27 11:01:49 (*) (All TCL Script Generation Skipped)
+# 2012.11.27 11:01:49 (*) (No Libraries Built)
+# 2012.11.27 11:01:49 (*) (Contents Generation Skipped)
+# 2012.11.27 11:01:49 (*) mk_custom_sdk finishing
+# 2012.11.27 11:01:49 (*) Starting generation for system: segment_display.
+
+.
+.
+..
+.
+.
+..
+.
+
+# 2012.11.27 11:01:50 (*) Running Generator Program for cpu_0
+
+# 2012.11.27 11:01:50 (*) Starting Nios II generation
+# 2012.11.27 11:01:50 (*)   Checking for plaintext license.
+# 2012.11.27 11:01:50 (*)   Couldn't query license setup in Quartus directory c:/altera/12.1/quartus
+# 2012.11.27 11:01:50 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2012.11.27 11:01:50 (*)   LM_LICENSE_FILE environment variable is empty
+# 2012.11.27 11:01:50 (*)   Plaintext license not found.
+# 2012.11.27 11:01:50 (*)   Checking for encrypted license (non-evaluation).
+
+# 2012.11.27 11:01:51 (*)   Couldn't query license setup in Quartus directory c:/altera/12.1/quartus
+# 2012.11.27 11:01:51 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2012.11.27 11:01:51 (*)   LM_LICENSE_FILE environment variable is empty
+# 2012.11.27 11:01:51 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+# 2012.11.27 11:01:51 (*)   Getting CPU configuration settings
+Warning: currently assigned JTAG instance ID 0 for cpu_0/jtag_debug_module is shared by sevenseg.ptf/cpu_0/jtag_debug_module. Reassigned to 1.
+
+# 2012.11.27 11:01:51 (*)   Elaborating CPU configuration settings
+# 2012.11.27 11:01:51 (*)   Creating all objects for CPU
+# 2012.11.27 11:01:51 (*)     Testbench
+# 2012.11.27 11:01:51 (*)     Instruction decoding
+# 2012.11.27 11:01:51 (*)       Instruction fields
+# 2012.11.27 11:01:51 (*)       Instruction decodes
+# 2012.11.27 11:01:52 (*)       Signals for RTL simulation waveforms
+# 2012.11.27 11:01:52 (*)       Instruction controls
+# 2012.11.27 11:01:52 (*)     Pipeline frontend
+# 2012.11.27 11:01:52 (*)     Pipeline backend
+
+# 2012.11.27 11:01:54 (*)   Generating HDL from CPU objects
+# 2012.11.27 11:02:00 (*)   Creating encrypted HDL
+# 2012.11.27 11:02:02 (*) Done Nios II generation
+
+# 2012.11.27 11:02:02 (*) Running Generator Program for jtag_uart_0
+
+Warning: currently assigned JTAG instance ID 0 for jtag_uart_0/avalon_jtag_slave is shared by sevenseg.ptf/jtag_uart_0/avalon_jtag_slave. Reassigned to 1.
+
+# 2012.11.27 11:02:03 (*) Running Generator Program for led_pio
+
+# 2012.11.27 11:02:03 (*) Running Generator Program for seven_seg_pio
+
+# 2012.11.27 11:02:04 (*) Running Generator Program for sysid
+
+# 2012.11.27 11:02:04 (*) Running Generator Program for sys_clk_timer
+
+# 2012.11.27 11:02:05 (*) Running Generator Program for lcd_display
+
+# 2012.11.27 11:02:05 (*) Running Generator Program for button_pio
+
+# 2012.11.27 11:02:06 (*) Running Generator Program for sdram_0
+
+.
+
+# 2012.11.27 11:02:06 (*) Running Test Generator Program for sdram_0
+
+# 2012.11.27 11:02:07 (*) Making arbitration and system (top) modules.
+
+# 2012.11.27 11:02:10 (*) Generating Quartus symbol for top level: segment_display
+
+# 2012.11.27 11:02:10 (*) Generating Symbol C:/ECT363/Lab6/segment_display.bsf
+
+# 2012.11.27 11:02:10 (*) Creating command-line system-generation script: C:/ECT363/Lab6/segment_display_generation_script
+
+# 2012.11.27 11:02:10 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.11.27 11:02:11 (*) Completed generation for system: segment_display.
+# 2012.11.27 11:02:11 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : C:/ECT363/Lab6/segment_display.ptf 
+  System HDL Model : C:/ECT363/Lab6/segment_display.vhd 
+  System Generation Script : C:/ECT363/Lab6/segment_display_generation_script 
+
+# 2012.11.27 11:02:11 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

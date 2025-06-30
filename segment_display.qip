@@ -1,0 +1,17 @@
+# clk_0
+# cpu_0
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) "cpu_0.sdc"]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) "cpu_0.ocp"]
+# jtag_uart_0
+# led_pio
+# seven_seg_pio
+# sysid
+# sys_clk_timer
+# lcd_display
+# button_pio
+# sdram_0
+# null
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "BCAEC57515F40000013B429A3483"
+set_global_assignment -entity "segment_display" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "segment_display" -name IP_TOOL_VERSION "12.1"
+set_global_assignment -entity "segment_display" -name IP_TOOL_ENV "sopc"

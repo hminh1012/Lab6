@@ -1,0 +1,100 @@
+Altera SOPC Builder Version 12.02 Build 263
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.11.06 09:16:13 (*) mk_custom_sdk starting
+# 2012.11.06 09:16:13 (*) Reading project C:/ECT363/Lab4/sevenseg.ptf.
+
+# 2012.11.06 09:16:13 (*) Finding all CPUs
+# 2012.11.06 09:16:13 (*) Finding all available components
+# 2012.11.06 09:16:13 (*) Reading C:/ECT363/Lab4/.sopc_builder/install.ptf
+
+# 2012.11.06 09:16:13 (*) Found 63 components
+
+# 2012.11.06 09:16:13 (*) Finding all peripherals
+
+# 2012.11.06 09:16:13 (*) Finding software components
+
+# 2012.11.06 09:16:14 (*) (Legacy SDK Generation Skipped)
+# 2012.11.06 09:16:14 (*) (All TCL Script Generation Skipped)
+# 2012.11.06 09:16:14 (*) (No Libraries Built)
+# 2012.11.06 09:16:14 (*) (Contents Generation Skipped)
+# 2012.11.06 09:16:14 (*) mk_custom_sdk finishing
+
+# 2012.11.06 09:16:14 (*) Starting generation for system: sevenseg.
+
+.
+.
+.
+..
+.
+.
+
+# 2012.11.06 09:16:14 (*) Running Generator Program for cpu_0
+
+# 2012.11.06 09:16:14 (*)   IP functional simulation model enabled: Uncheck System Generation Simulation box for faster generation if HDL Simulation not required.
+# 2012.11.06 09:16:15 (*) Starting Nios II generation
+# 2012.11.06 09:16:15 (*)   Checking for plaintext license.
+# 2012.11.06 09:16:25 (*)   Plaintext license not found.
+# 2012.11.06 09:16:25 (*)   Checking for encrypted license (non-evaluation).
+# 2012.11.06 09:16:36 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+
+# 2012.11.06 09:16:36 (*)   Getting CPU configuration settings
+# 2012.11.06 09:16:36 (*)   Elaborating CPU configuration settings
+# 2012.11.06 09:16:36 (*)   Creating all objects for CPU
+# 2012.11.06 09:16:36 (*)     Testbench
+# 2012.11.06 09:16:36 (*)     Instruction decoding
+# 2012.11.06 09:16:36 (*)       Instruction fields
+# 2012.11.06 09:16:36 (*)       Instruction decodes
+# 2012.11.06 09:16:36 (*)       Signals for RTL simulation waveforms
+# 2012.11.06 09:16:36 (*)       Instruction controls
+# 2012.11.06 09:16:36 (*)     Pipeline frontend
+
+# 2012.11.06 09:16:37 (*)     Pipeline backend
+# 2012.11.06 09:16:39 (*)   Creating 'C:/ECT363/Lab4/sevenseg_sim/cpu_0.do'
+# 2012.11.06 09:16:39 (*)   Generating HDL from CPU objects
+# 2012.11.06 09:16:44 (*)   Creating encrypted HDL
+# 2012.11.06 09:16:46 (*)   Creating IP functional simulation model
+# 2012.11.06 09:17:12 (*) Done Nios II generation
+
+# 2012.11.06 09:17:12 (*) Running Generator Program for onchip_memory2_0
+
+# 2012.11.06 09:17:13 (*) Running Generator Program for jtag_uart_0
+
+# 2012.11.06 09:17:13 (*) Running Generator Program for led_pio
+
+# 2012.11.06 09:17:14 (*) Running Generator Program for seven_seg_pio
+
+# 2012.11.06 09:17:14 (*) Running Generator Program for sysid
+
+# 2012.11.06 09:17:14 (*) Running Generator Program for timer_0
+
+
+# 2012.11.06 09:17:15 (*) Making arbitration and system (top) modules.
+
+# 2012.11.06 09:17:17 (*) Generating Quartus symbol for top level: sevenseg
+
+# 2012.11.06 09:17:17 (*) Generating Symbol C:/ECT363/Lab4/sevenseg.bsf
+
+# 2012.11.06 09:17:17 (*) Creating command-line system-generation script: C:/ECT363/Lab4/sevenseg_generation_script
+
+# 2012.11.06 09:17:17 (*) Running setup for HDL simulator: modelsim
+
+
+Building ModelSim Project
+
+'vsim' is not recognized as an internal or external command,
+operable program or batch file.
+
+# 2012.11.06 09:17:17 (*) Completed generation for system: sevenseg.
+# 2012.11.06 09:17:17 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : C:/ECT363/Lab4/sevenseg.ptf 
+  System HDL Model : C:/ECT363/Lab4/sevenseg.vhd 
+  System Generation Script : C:/ECT363/Lab4/sevenseg_generation_script 
+  HDL Simulation Directory : C:/ECT363/Lab4/sevenseg_sim 
+
+# 2012.11.06 09:17:17 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

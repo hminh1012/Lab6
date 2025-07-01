@@ -3,7 +3,7 @@
 ## Overview
 This project implements a **Mice-Hunting Game** on an FPGA-based system using the Altera DE2 board. Adapted from the "SOPC Design Based on FPGA and Touch Screen" concept, this game uses a 16x2 LCD display instead of a touch screen due to hardware constraints. Players "hunt" a randomly appearing character '0' on the LCD by pressing switches (SW0, SW1, SW2) corresponding to its position (left, middle, right). The game features three difficulty levels, performance evaluation, and a Nios II processor-based architecture for control.
 
-The SOPC core (Qsys) working on DE2-35 take from https://www.youtube.com/watch?v=Ujoyq_OYVXE&list=PLt19QNglEZnEon1DTcooQdlMGnoYSxYJC&index=6
+The SOPC core (Qsys) working on DE2-35 FPGA Development and Education Kit take from https://www.youtube.com/watch?v=Ujoyq_OYVXE&list=PLt19QNglEZnEon1DTcooQdlMGnoYSxYJC&index=6
 
 For more detail, please read https://github.com/hminh1012/Mice-Hunting-Game/blob/53841880b13b5936856221a99dd255e9e882c5d4/Lab%202.pdf
 
@@ -119,7 +119,7 @@ The game is programmed in C, running on the Nios II processor. Key functions inc
    ```
 
 ## Results
-- Tested on the DE2 board, with performance affected by the LCD screen quality.
+- Tested on the DE2-35 FPGA Development and Education Kit board, with performance affected by the LCD screen quality.
 - Welcome screen, rules, level selection, and gameplay (e.g., "Correct" display, score tracking) functioned as intended.
 - Results were printed to the Nios II console for debugging.
 - I loaded my game “Hunt Mice”, and first came out the welcome page telling the welcome message and the rules of the game. After a few second we chose the level “SUPER” by switching SW2. ![alt text](https://github.com/hminh1012/Mice-Hunting-Game-on-FPGA-DE2-board-using-NIOS-II-proccessor/blob/10f40bdf3d0df7eb9ee6224ac1a6c0dceb17936a/Select_level.jpg)

@@ -3,9 +3,9 @@
 ## Overview
 This project implements a **Mice-Hunting Game** on an FPGA-based system using the Altera DE2 board. Adapted from the "SOPC Design Based on FPGA and Touch Screen" concept, this game uses a 16x2 LCD display instead of a touch screen due to hardware constraints. Players "hunt" a randomly appearing character '0' on the LCD by pressing switches (SW0, SW1, SW2) corresponding to its position (left, middle, right). The game features three difficulty levels, performance evaluation, and a Nios II processor-based architecture for control.
 
-The SOPC core (Qsys) working on DE2-35 FPGA Development and Education Kit take from ![this link](https://www.youtube.com/watch?v=Ujoyq_OYVXE&list=PLt19QNglEZnEon1DTcooQdlMGnoYSxYJC&index=6)
+The SOPC core (Qsys) working on DE2-35 FPGA Development and Education Kit take from [this link](https://www.youtube.com/watch?v=Ujoyq_OYVXE&list=PLt19QNglEZnEon1DTcooQdlMGnoYSxYJC&index=6)
 
-For more detail, please read ![my report](https://github.com/hminh1012/Mice-Hunting-Game/blob/53841880b13b5936856221a99dd255e9e882c5d4/Lab%202.pdf)
+For more detail, please read [my report](https://github.com/hminh1012/Mice-Hunting-Game/blob/53841880b13b5936856221a99dd255e9e882c5d4/Lab%202.pdf)
 
 ## Game Description
 - **Objective**: Hunt the character '0' that appears randomly in one of three positions (left, middle, right) on the LCD by pressing the corresponding switch.

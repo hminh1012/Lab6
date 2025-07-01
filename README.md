@@ -122,6 +122,11 @@ The game is programmed in C, running on the Nios II processor. Key functions inc
 - Tested on the DE2 board, with performance affected by the LCD screen quality.
 - Welcome screen, rules, level selection, and gameplay (e.g., "Correct" display, score tracking) functioned as intended.
 - Results were printed to the Nios II console for debugging.
+- I loaded my game “Hunt Mice”, and first came out the welcome page telling the welcome message and the rules of the game. After a few second we chose the level “SUPER” by switching SW2. ![alt text](https://github.com/hminh1012/Mice-Hunting-Game-on-FPGA-DE2-board-using-NIOS-II-proccessor/blob/10f40bdf3d0df7eb9ee6224ac1a6c0dceb17936a/Select_level.jpg)
+- In-game ![alt text](https://github.com/hminh1012/Mice-Hunting-Game-on-FPGA-DE2-board-using-NIOS-II-proccessor/blob/24f6103a98c5fea00f95e86d615e34d1b42d46dd/In_game.jpg)
+- Once I switched the right mouse, it will display “Correct” and hold for 0.5 second. If I was not able to hunt a mouse, it would continue to display the next mouse. ![alt text](https://github.com/hminh1012/Mice-Hunting-Game-on-FPGA-DE2-board-using-NIOS-II-proccessor/blob/24f6103a98c5fea00f95e86d615e34d1b42d46dd/Correct.jpg)
+- As soon as all mice of the level had come out, the LCD screen display Game over ![alt text](https://github.com/hminh1012/Mice-Hunting-Game-on-FPGA-DE2-board-using-NIOS-II-proccessor/blob/24f6103a98c5fea00f95e86d615e34d1b42d46dd/Game_over.jpg)
+- And display on Nios Console as Figure ![alt text](https://github.com/hminh1012/Mice-Hunting-Game-on-FPGA-DE2-board-using-NIOS-II-proccessor/blob/564fcfc6774b9be08c2ab4d075396a5cff09eee6/ShowConsole.png)
 
 ## Requirements
 - **Hardware**:
